@@ -1,0 +1,6 @@
+{
+    "ignore": [
+        "test_mod"
+    ],
+    "load_order": []
+}

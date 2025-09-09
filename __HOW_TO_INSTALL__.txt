@@ -1,0 +1,16 @@
+How To Install:
+
+- Go to your Dark Messiah Might and Magic Singleplayer folder
+- Make a backup of your mm.exe file
+- Extract the contents of the RAR to this folder. If done right, you will get a prompt asking to overwrite the files. Press yes!
+- Go to Steam, hit Launch
+- Customize your mods, settings, and when ready launch with or without!
+
+Issues:
+
+- If you press play on steam and nothing happens, try launching the mm.exe file directly in the folder. Launch with mods, and it may shut the game down. That's okay, as it applies the patch for the game from there. Steam will now work properly.
+
+- Check your COM Status in the help box. If your COM STATUS is not "GOOD" then go to the Toolkit and click VideoController Fix.
+        - You can also manually run the "dmmm_windows_com_fix.bat" file
+
+- If you do not have access to the Toolkit bar, take your window out of maximize! 

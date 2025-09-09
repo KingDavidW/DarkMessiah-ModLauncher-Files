@@ -1,0 +1,13 @@
+{
+	"name"				    :	"Test Addon",
+	"description"		    :	"You have tested wisely.",
+	"author"			    :	"wiltOS Technologies",
+	"website"			    : 	"www.wiltostech.com",
+	"launch_parameters"		:	[],
+	"gameinfo_parameters"	:	[],
+	"localization_manifests":    [],
+    "game_configs"            :    [],
+    "autoexec_configs"        :    [],
+    "modules"               :   [],
+	"hud_directory"			:	""
+}

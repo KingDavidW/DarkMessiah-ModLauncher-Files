@@ -1,0 +1,1 @@
+%windir%\system32\wbem\mofcomp.exe %windir%\system32\wbem\cimwin32.mof

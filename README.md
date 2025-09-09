@@ -37,6 +37,7 @@ Go here: https://discord.gg/Jx8kSty
 
 ## Credits
 King "David" Wiltos for tool development
+
 Ubisoft for Support (EricDV, MartaK, and ElohimC!)
 
 The many QA testers!!

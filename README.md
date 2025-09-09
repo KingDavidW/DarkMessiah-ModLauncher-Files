@@ -7,7 +7,7 @@ This Mod Launcher is designed to work seamlessly with the many different mods, p
 Go here: https://steamcommunity.com/sharedfiles/filedetails/?id=3378556750
 
 ## Discord Link
-Go here: https:////discord.gg//Jx8kSty
+Go here: https://discord.gg/Jx8kSty
 
 ## How to Install
 1) Go to your Dark Messiah Might and Magic Singleplayer folder

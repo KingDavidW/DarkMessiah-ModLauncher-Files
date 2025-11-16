@@ -7,6 +7,9 @@
     "launch_no_mod_button": "Launch without Mods",
     "launch_vanilla": "Launch Original EXE (Vanilla)",
     "exit_app": "Exit Launcher",
+    "save_exit": "Save and Exit",
+    "save_changes": "Save Changes",
+    "exit_generic": "Exit",
 
     "language_label": "Language",
     
@@ -54,5 +57,15 @@
 
     "toolkit_com_debug": "Fix COM Status",
     "setting_save": "Save Settings",
-    "save_message": "You are about to exit the mod launcher! If you made any changes, they will not be saved.\n\nWould you like to save your current config?"
+    "save_message": "You are about to exit the mod launcher! If you made any changes, they will not be saved.\n\nWould you like to save your current config?",
+
+    "bar_file": "File",
+    "bar_help": "Help",
+    "bar_about": "About",
+    "bar_discord": "Join Discord",
+    "bar_credits": "Credits!",
+    "bar_toolkit": "Toolkit",
+    "bar_videofixes": "VideoController Fixer",
+
+    "about_text": "The purpose of this mod launcher is to allow modders to easily add, overwrite, or modify existing content in Dark Messiah through an addon system.\n\nPreviously, all content in Dark Messiah would go through a single content folder or require gameinfo.txt edits that would complicate installation for many players.\n\nNow, all mods may register their own self-contained content folders, launch parameters, gameinfo edits, even .cfg executions.\n\nPlayers can even combine multiple mods and choose the order they load in, or if they load at all!"
 }

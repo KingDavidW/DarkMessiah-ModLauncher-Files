@@ -1,0 +1,58 @@
+{
+    "app_title": "Dark Messiah Mod Launcher",
+    "mod_tab": "Mod Manager",
+    "setting_tab": "Game Settings",
+    "debug_tab": "Debug Info",
+    "launch_mod_button": "Launch with Mods",
+    "launch_no_mod_button": "Launch without Mods",
+    "launch_vanilla": "Launch Original EXE (Vanilla)",
+    "exit_app": "Exit Launcher",
+
+    "language_label": "Language",
+    
+    "mods_folder_tooltip": "Open Mods Folder",
+    "config_reload": "Reload Config",
+    "save_config": "Save Current Config",
+
+    "mod_name": "Name",
+    "mod_author": "Author",
+    "mod_version": "Version",
+    "mod_website": "Website",
+    "mod_folder": "Folder",
+    "mod_desc": "Description",
+    "mod_manage_up": "Move Mod Up",
+    "mod_manage_down": "Move Mod Down",
+    "mod_toggles": "Mod Toggles",
+    "mod_enable_all": "Enable All",
+    "mod_disable_all": "Disable All",
+
+    "graphics_title": "Graphics Settings",
+    "setting_fullscreen": "Fullscreen",
+    "setting_windowed": "Windowed (Bordered)",
+    "setting_borderless": "Windowed (Borderless)",    
+    "setting_reset_res": "Reset Resolution",
+    "setting_screenmode": "Screen Mode:",
+    "setting_aspect": "Aspect Ratio:",
+    "setting_resolution": "Resolution:",
+    "setting_dx95": "Enforce DirectX 9.5",
+
+    "fixes_title": "Game Fixes",
+    "fixes_steamdeck": "Steam Deck/Proton/Linux Patch",
+    "fixes_startupvid": "Disable Startup Videos",
+    "fixes_hardware": "Disable Forced Hardware Textures",
+    "fixes_autoconfig": "First Time AutoConfig Fix (Single Run)",
+
+    "debug_title": "Registry Information",
+    "debug_dxlevel": "DirectX Level:",
+    "debug_width": "Set Width:",
+    "debug_height": "Set Height:",
+    "debug_windowed": "Windowed Mode:",
+    "debug_parallax": "Parallax Mapping:",
+    "debug_vsync": "Vertical Sync:",
+    "debug_com": "COM Status:",
+
+
+    "toolkit_com_debug": "Fix COM Status",
+    "setting_save": "Save Settings",
+    "save_message": "You are about to exit the mod launcher! If you made any changes, they will not be saved.\n\nWould you like to save your current config?"
+}

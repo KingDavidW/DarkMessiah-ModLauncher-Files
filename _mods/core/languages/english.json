@@ -45,6 +45,12 @@
     "fixes_hardware": "Disable Forced Hardware Textures",
     "fixes_autoconfig": "First Time AutoConfig Fix (Single Run)",
 
+    "help_dx95": "Sets the game to launch in DX9.5, which has improved graphics. Will restore regular graphics after RTX gameplay",
+    "help_steamdeck": "Enables stability with threading for Linux based machines",
+    "help_startupvid": "Disables all introductory videos from playing. Does not effect cutscenes",
+    "help_hardware": "Disables hardware priority for textures, which can improve stability on newer machines",
+    "help_autoconfig": "Automatically re-initializes the game in safe mode based on PC settings. This will only execute ONCE on launch and disable itself again",
+
     "debug_title": "Registry Information",
     "debug_dxlevel": "DirectX Level:",
     "debug_width": "Set Width:",
@@ -67,5 +73,9 @@
     "bar_toolkit": "Toolkit",
     "bar_videofixes": "VideoController Fixer",
 
+    "save_button": "Save",
+    "discard_button": "Discard",
+    "cancel_button": "Cancel",
     "about_text": "The purpose of this mod launcher is to allow modders to easily add, overwrite, or modify existing content in Dark Messiah through an addon system.\n\nPreviously, all content in Dark Messiah would go through a single content folder or require gameinfo.txt edits that would complicate installation for many players.\n\nNow, all mods may register their own self-contained content folders, launch parameters, gameinfo edits, even .cfg executions.\n\nPlayers can even combine multiple mods and choose the order they load in, or if they load at all!"
+
 }

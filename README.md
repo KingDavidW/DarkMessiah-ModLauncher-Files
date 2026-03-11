@@ -56,3 +56,9 @@ Kenny Nathan
 StickyFingaz
 siohaza
 bt
+
+## Translators
+
+English - King David
+Russian - Silverset
+Brazilian/Portuguese - Golden Xan

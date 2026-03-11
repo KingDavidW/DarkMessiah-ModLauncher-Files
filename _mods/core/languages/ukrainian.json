@@ -1,0 +1,81 @@
+{
+    "app_title": "Dark Messiah Mod Launcher",
+    "mod_tab": "Менеджер модів",
+    "setting_tab": "Налаштування гри",
+    "debug_tab": "Інформація налагодження",
+    "launch_mod_button": "Запуск &З модами",
+    "launch_no_mod_button": "Запуск &Без модів",
+    "launch_vanilla": "Запустити оригінальний EXE (Ванільна)",
+    "exit_app": "Вийти з лаунчера",
+    "save_exit": "Зберегти та вийти",
+    "save_changes": "Зберегти зміни",
+    "exit_generic": "Вийти",
+
+    "language_label": "Мова",
+    
+    "mods_folder_tooltip": "Відкрити папку з модами",
+    "config_reload": "перезапустити налаштування",
+    "save_config": "Зберегти поточну конфігурацію",
+
+    "mod_name": "Назва",
+    "mod_author": "Автор",
+    "mod_version": "Версія",
+    "mod_website": "Вебсайт",
+    "mod_folder": "Папка",
+    "mod_desc": "Опис",
+    "mod_manage_up": "Перемістити Мод вгору",
+    "mod_manage_down": "Перемістити Мод вниз",
+    "mod_toggles": "Перемикач",
+    "mod_enable_all": "Ввімкнути все",
+    "mod_disable_all": "Вимкнути все",
+
+    "graphics_title": "Графічні налаштування",
+    "setting_fullscreen": "Повний екран",
+    "setting_windowed": "Віконний (Рамка)",
+    "setting_borderless": "Віконний (Без рамки)",    
+    "setting_reset_res": "Перезапуск розширення",
+    "setting_screenmode": "Режим екрану:",
+    "setting_aspect": "Співвідношення сторін:",
+    "setting_resolution": "Розширення:",
+    "setting_dx95": "Застосувати DirectX 9.5",
+
+    "fixes_title": "Виправлення гри",
+    "fixes_steamdeck": "Steam Deck/Proton/Linux Patch",
+    "fixes_startupvid": "Вимкнути стартове відео",
+    "fixes_hardware": "Вимкнути примусові апаратні текстури",
+    "fixes_autoconfig": "Виправлення автоматичної конфігурації при першому запуску (одноразове виконання)",
+
+    "help_dx95": "Sets the game to launch in DX9.5, which has improved graphics. Will restore regular graphics after RTX gameplay",
+    "help_steamdeck": "Enables stability with threading for Linux based machines",
+    "help_startupvid": "Disables all introductory videos from playing. Does not effect cutscenes",
+    "help_hardware": "Disables hardware priority for textures, which can improve stability on newer machines",
+    "help_autoconfig": "Automatically re-initializes the game in safe mode based on PC settings. This will only execute ONCE on launch and disable itself again",
+
+    "debug_title": "Інформація про реєстр",
+    "debug_dxlevel": "DirectX Рівень:",
+    "debug_width": "Встановити ширину:",
+    "debug_height": "Встановити висоту:",
+    "debug_windowed": "Віконний режим:",
+    "debug_parallax": "Паралакс відображення:",
+    "debug_vsync": "Вертикальна синхронізація:",
+    "debug_com": "COM Статус:",
+
+
+    "toolkit_com_debug": "Виправити COM Статус",
+    "setting_save": "Зберегти налаштування",
+    "save_message": "Ви збираєтеся вийти з мод-лаунчера! Якщо ви внесли якісь зміни, вони не будуть збережені.\n\nЧи хочете ви зберегти поточну конфігурацію?",
+
+    "bar_file": "Файл",
+    "bar_help": "Допомога",
+    "bar_about": "Інформація",
+    "bar_discord": "Приєднатися до Discord",
+    "bar_credits": "Автори!",
+    "bar_toolkit": "Інструменти",
+    "bar_videofixes": "Виправлення відеоконтролера",
+
+    "save_button": "Зберегти",
+    "discard_button": "Відхилити",
+    "cancel_button": "Скасувати",
+    "about_text": "Мета цього мод-лаунчера — дозволити моддерам легко додавати, перезаписувати або модифікувати існуючий контент у Dark Messiah за допомогою системи додатків. Раніше весь контент у Dark Messiah проходив через єдину папку контенту або вимагав редагування файлу gameinfo.txt, що ускладнювало інсталяцію для багатьох гравців. Тепер усі моди можуть реєструвати свої власні автономні папки з контентом, параметри запуску, редагування gameinfo і навіть виконання .cfg. Гравці можуть навіть комбінувати кілька модів і вибирати порядок їх завантаження або взагалі вирішувати, чи завантажувати їх!"
+
+}

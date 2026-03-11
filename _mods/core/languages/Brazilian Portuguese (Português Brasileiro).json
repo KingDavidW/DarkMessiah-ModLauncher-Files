@@ -1,0 +1,81 @@
+﻿{
+    "app_title": "Inicializador de Mods do Dark Messiah",
+    "mod_tab": "Gerenciador de Mods",
+    "setting_tab": "Configurações de Jogo",
+    "debug_tab": "Informações de Depuração",
+    "launch_mod_button": "Inicializar com mods",
+    "launch_no_mod_button": "Inicializar sem mods",
+    "launch_vanilla": "Inicializar EXE original (vanilla)",
+    "exit_app": "Sair do inicializador",
+    "save_exit": "Salvar e sair",
+    "save_changes": "Salvar alterações",
+    "exit_generic": "Sair",
+
+    "language_label": "Idioma",
+    
+    "mods_folder_tooltip": "Abrir diretório dos mods",
+    "config_reload": "Recarregar configurações",
+    "save_config": "Salvar configuração atual",
+
+    "mod_name": "Nome",
+    "mod_author": "Autor",
+    "mod_version": "Versão",
+    "mod_website": "Site",
+    "mod_folder": "Diretório",
+    "mod_desc": "Descrição",
+    "mod_manage_up": "Mover mod para cima",
+    "mod_manage_down": "Mover mod para baixo",
+    "mod_toggles": "Seleção de mods",
+    "mod_enable_all": "Ativar todos",
+    "mod_disable_all": "Desativar todos",
+
+    "graphics_title": "Configurações gráficas",
+    "setting_fullscreen": "Tela cheia",
+    "setting_windowed": "Janela (com bordas)",
+    "setting_borderless": "Janela (sem bordas)",    
+    "setting_reset_res": "Redefinir resolução",
+    "setting_screenmode": "Modo da tela",
+    "setting_aspect": "Proporção da tela:",
+    "setting_resolution": "Resolução:",
+    "setting_dx95": "Impor DirectX 9.5",
+
+    "fixes_title": "Correções de jogo",
+    "fixes_steamdeck": "Atualização para Steam Deck/Proton/Linux",
+    "fixes_startupvid": "Desativar vídeos de introdução",
+    "fixes_hardware": "Desativar prioridade de hardware para texturas",
+    "fixes_autoconfig": "Correção de AutoConfig da 1ª inicialização (só executa uma vez)",
+
+    "help_dx95": "Força o jogo a inicializar com DX9.5, que possui gráficos melhorados. Restaura os gráficos regulares após jogar com RTX ativado.",
+    "help_steamdeck": "Habilita a estabilidade com threading para máquinas baseadas no Linux.",
+    "help_startupvid": "Desativa a reprodução de todos os vídeos introdutórios. Não afeta as cinemáticas do jogo.",
+    "help_hardware": "Desativa a prioridade de hardware para texturas, o que melhora a estabilidade em máquinas mais novas.",
+    "help_autoconfig": "Reinicializa o jogo automaticamente no modo seguro com base nas configurações do PC. Essa configuração é executada apenas UMA vez ao inicializar, e então se desativa automaticamente.",
+
+    "debug_title": "Informações de registro",
+    "debug_dxlevel": "Nível do DirectX:",
+    "debug_width": "Definir largura:",
+    "debug_height": "Definir altura:",
+    "debug_windowed": "Modo janela:",
+    "debug_parallax": "Mapeamento de deslocamento virtual:",
+    "debug_vsync": "Sincronização vertical:",
+    "debug_com": "Status COM:",
+
+
+    "toolkit_com_debug": "Corrigir status COM",
+    "setting_save": "Salvar configurações",
+    "save_message": "Você está prestes a sair do inicializador de mods! Qualquer alteração que você tenha feito não será salva.\n\nGostaria de salvar suas configurações atuais?",
+
+    "bar_file": "Arquivo",
+    "bar_help": "Ajuda",
+    "bar_about": "Sobre",
+    "bar_discord": "Participe do Discord",
+    "bar_credits": "Créditos!",
+    "bar_toolkit": "Ferramentas",
+    "bar_videofixes": "Corretor de Videocontrolador",
+
+    "save_button": "Salvar",
+    "discard_button": "Descartar",
+    "cancel_button": "Cancelar",
+    "about_text": "O propósito desse inicializador de mods é permitir que os criadores de mods adicionem, sobreescrevam ou modifiquem conteúdos existentes no Dark Messiah facilmente através de um sistema de complementos.\n\nAnteriormente, todos os conteúdos no Dark Messiah costumavam passar por um único diretório de conteúdos, ou exigiam edições no gameinfo.txt, que dificultava a instalação para muitos jogadores.\n\nAgora, todos os mods podem ser registrados em seus próprios diretórios de conteúdos autocontidos, inicializar parâmetros, fazer edições no gameinfo, e até criar execuções por .cfg.\n\nOs jogadores podem até mesmo combinar múltiplos mods e escolherem a ordem que devem ser carregados, ou se sequer serão carregados!"
+
+}

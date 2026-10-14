@@ -1,0 +1,134 @@
+{
+  "profile": "exact SHA-identified non-Steam 1.02 build only",
+  "python": "3.14.2",
+  "platform": "Windows 10, x86 game under WOW64",
+  "actual_input_output_bytes_verified": {
+    "verified_against_actual_binaries": true,
+    "modules": [
+      {
+        "module": "bin/wos_dmmm.dll",
+        "input_sha256": "4B3C5BC92E89591F85F51461A093AAE37544AB8D9E0F6759AC93E2E584D8C83A",
+        "output_sha256": "D1E213AE73A5D17380BB946BDE1AB81DFA2441D4D3BE4F89C7AFA6F50BFB85E7",
+        "changes": [
+          {
+            "rva": "0x1404e",
+            "file_offset": "0x1344e",
+            "before": "b08f1800",
+            "after": "a08f1800"
+          },
+          {
+            "rva": "0x14093",
+            "file_offset": "0x13493",
+            "before": "708c1800",
+            "after": "608c1800"
+          }
+        ]
+      },
+      {
+        "module": "_mods/advanced_sdk/bin/server_sdk.dll",
+        "input_sha256": "CEC5327A05F7A461BA34784D267877797301AB844C91F5A927A73AAD68290B9D",
+        "output_sha256": "344F54B392458F97DF5FFE4F372027F17D9C36CC41877578B849287BE5FF7621",
+        "changes": [
+          {
+            "rva": "0x19bdc9",
+            "file_offset": "0x19b1c9",
+            "before": "206d1700",
+            "after": "106d1700"
+          },
+          {
+            "rva": "0x19be81",
+            "file_offset": "0x19b281",
+            "before": "50491700",
+            "after": "40491700"
+          }
+        ]
+      }
+    ],
+    "bootstrap": {
+      "input_sha256": "8495465C430691CD6FE1BE821BBE9BB415D3A28CCE2999622A94C3B0B99B13C9",
+      "output_sha256": "D1F3288B1C90B3F7818F53C0890FE04787B66189E02F01A52596F15D9D85CA09",
+      "rva": "0xe1a4",
+      "before": "62696e5c6c61756e636865722e646c6c00",
+      "after": "62696e5c776f735f646d6d6d2e646c6c00"
+    }
+  },
+  "synthetic_tests": {
+    "count": 17,
+    "result": "PASS",
+    "proprietary_fixtures": false
+  },
+  "portable_patcher_workbench_apply_idempotency_rollback_reapply": "PASS",
+  "game_runs": [
+    {
+      "mode": "mods",
+      "actual_button": "Launch with Mods",
+      "new_process": true,
+      "alive_at_end": true,
+      "graceful_exit": "0x00000000",
+      "save_reload_and_playable_l00": true,
+      "loaded_mod_modules": [
+        "client_sdk.dll",
+        "dmrestoration_client.dll",
+        "dmrestoration_server.dll",
+        "server_sdk.dll"
+      ],
+      "module_bases": {
+        "engine.dll": "0x20000000",
+        "server.dll": "0x22000000",
+        "client.dll": "0x24000000"
+      }
+    },
+    {
+      "mode": "without",
+      "actual_button": "Launch without Mods",
+      "new_process": true,
+      "alive_at_end": true,
+      "graceful_exit": "0x00000000",
+      "save_reload_and_playable_l00": true,
+      "loaded_mod_modules": [],
+      "module_bases": {
+        "engine.dll": "0x20000000",
+        "server.dll": "0x22000000",
+        "client.dll": "0x24000000"
+      }
+    },
+    {
+      "mode": "vanilla",
+      "actual_button": "Launch Original EXE (Vanilla)",
+      "new_process": true,
+      "alive_at_end": true,
+      "graceful_exit": "0x00000000",
+      "save_reload_and_playable_l00": false,
+      "loaded_mod_modules": [],
+      "module_bases": {
+        "engine.dll": "0x20000000",
+        "server.dll": "0x22000000",
+        "client.dll": "0x24000000"
+      }
+    },
+    {
+      "mode": "disabled",
+      "actual_button": "Launch with Mods",
+      "new_process": true,
+      "alive_at_end": true,
+      "graceful_exit": "0x00000000",
+      "save_reload_and_playable_l00": false,
+      "loaded_mod_modules": [],
+      "module_bases": {
+        "engine.dll": "0x20000000",
+        "server.dll": "0x22000000",
+        "client.dll": "0x24000000"
+      }
+    }
+  ],
+  "prior_acceptance": {
+    "modded_fresh_processes": 3,
+    "save_reload": true,
+    "restored_l00hub": true,
+    "cold_definition": "new process, previous game closed, configuration restored; no OS reboot claimed"
+  },
+  "original_and_reference_unchanged": true,
+  "localization_restored": true,
+  "full_campaign_verified": false,
+  "other_builds_verified": false
+}

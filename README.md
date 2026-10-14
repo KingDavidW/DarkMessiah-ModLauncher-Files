@@ -31,6 +31,11 @@ Go here: https://discord.gg/Jx8kSty
 - Includes a bunch of bug fixes so you can launch the game. Things like administrator access, having too many CPU cores, DirectX failures, and Large Address Aware are all baked into the launcher! ACTUALLY play the game!!
 
 ## Troubleshooting
+- For the exact tested Dark Messiah 1.02 non-Steam binary profile, an optional
+  [source-only compatibility patcher](compatibility/nonsteam_102/README.md)
+  provides version checks, backups and rollback. This is opt-in and is not a
+  claim of support for every non-Steam build.
+
 - If you press play on steam and nothing happens, try launching the mm.exe file directly in the folder. Launch with mods, and it may shut the game down. That's okay, as it applies the patch for the game from there. Steam will now work properly.
   
 - If you have any issues please join the wiltOS discord and get yourself a Dark Messiah role! We'll be happy to help
